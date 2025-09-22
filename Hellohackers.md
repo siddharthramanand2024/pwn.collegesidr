@@ -9,7 +9,7 @@
 
 simply type $ hello command in the terminal to obtain the flag.
 
-hacker@hello~intro-to-commands:~$ hello
+hacker@hello intro-to-commands:$ hello
 
 Success! Here is your flag:
 pwn.college{QGYhjjYOATNeho4DjXV-FU8XTlu.QX3YjM1wiMyAzNzEzW}
@@ -28,7 +28,7 @@ pwn.college{QGYhjjYOATNeho4DjXV-FU8XTlu.QX3YjM1wiMyAzNzEzW}
 
 simply type $ hello command in the terminal along with the argument hackers to obtain the flag.
 
-hacker@hello~intro-to-arguments:~$ hello hackers
+hacker@hello intro-to-arguments:$ hello hackers
 
 Success! Here is your flag:
 pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
