@@ -5,15 +5,16 @@
  [**In this challenge, I will copy the flag to the flag file in your home directory (where your shell starts). Go read it with cat!**]
 
 
-## Process
+# Process
 
 using $ cat flag command in the terminal to obtain the flag since it already placed in home.
 
+\\\`
 $ cat flag
 pwn.college{ga8siYw3n0X8vWHQGZZIuToGmJh.QXxcTN0wiMyAzNzEzW}
+\\\`
 
-##  Flag
-
+Flag
 pwn.college{ga8siYw3n0X8vWHQGZZIuToGmJh.QXxcTN0wiMyAzNzEzW}
 
 
@@ -26,11 +27,12 @@ pwn.college{ga8siYw3n0X8vWHQGZZIuToGmJh.QXxcTN0wiMyAzNzEzW}
 
 passing absolute path  of flag as argument to cat.
 
+\\\`
 $ cat /flag
 pwn.college{87sCeFEkwC4S7npoPAAYQ0-N4pq.QX5ETO0wiMyAzNzEzW}
+\\\`
 
-
-## Flag
+Flag
 pwn.college{87sCeFEkwC4S7npoPAAYQ0-N4pq.QX5ETO0wiMyAzNzEzW}
 
 
@@ -44,11 +46,12 @@ pwn.college{87sCeFEkwC4S7npoPAAYQ0-N4pq.QX5ETO0wiMyAzNzEzW}
 we pass the directory where flag is placed as arguments.
 given directory of flag:/usr/include/drm/flag
 
+\\\`
 ~$ cat /usr/include/drm/flag
 pwn.college{021HynsHTaor98Js2Hk6ZixJ3Wu.QXwITO0wiMyAzNzEzW}
+\\\`
 
-
-##  Flag
+ Flag
 pwn.college{021HynsHTaor98Js2Hk6ZixJ3Wu.QXwITO0wiMyAzNzEzW}
 
 
@@ -56,51 +59,51 @@ pwn.college{021HynsHTaor98Js2Hk6ZixJ3Wu.QXwITO0wiMyAzNzEzW}
  [** using grep to find for a line in a file**]
 
 
-## Process
+# Process
 
 for grep pass string to be searched along with destination of file as arguments.
 
+\\\`
 hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep "pwn.college"  /challenge/data.txt
 pwn.college{QREfiu85a_ecMPS-8PzCJvDFQCL.QX3EDO0wiMyAzNzEzW}
+\\\`
 
-
-## Flag
+Flag
 pwn.college{QREfiu85a_ecMPS-8PzCJvDFQCL.QX3EDO0wiMyAzNzEzW}
 
 
 ## Challenge 5
 [**  use diff to find difference between two files**]
 
-## Process
+# Process
 
 pass two files destinations as arguments to files
 
+\\\`
 $ diff /challenge/decoys_only.txt /challenge/decoys_and_real.txt 
-
 93a94 (differnce between two files)
 > pwn.college{UltqwNFuI_mTaAlVznc9Pp1pYfk.01MwMDOxwiMyAzNzEzW}
+\\\`
 
-
-##  Flag
+ Flag
 pwn.college{UltqwNFuI_mTaAlVznc9Pp1pYfk.01MwMDOxwiMyAzNzEzW}
 
 
 ## Challenge 6
 [** finding and listing files**]
 
-## Process
-
+# Process
+\\\`
 ~$ cd /challenge
 hacker@commands~listing-files:/challenge$ ls
 11791-renamed-run-24845  DESCRIPTION.md
 hacker@commands~listing-files:/challenge$ cat 11791-renamed-run-24845
-
 ./11791-renamed-run-24845
 Yahaha, you found me! Here is your flag:
 pwn.college{U7hZFalBQL83rQqJIvSY3qbhqh-.QX4IDO0wiMyAzNzEzW}
+\\\`
 
-
-##  Flag
+Flag
 pwn.college{U7hZFalBQL83rQqJIvSY3qbhqh-.QX4IDO0wiMyAzNzEzW}
 
 
@@ -108,17 +111,19 @@ pwn.college{U7hZFalBQL83rQqJIvSY3qbhqh-.QX4IDO0wiMyAzNzEzW}
 ## Challenge 7
 [** It's that simple! In this level, please create two files: /tmp/pwn and /tmp/college, and run /challenge/run to get your flag!**]
 
-## Process
+# Process
 
 use touch command to create two new files.
 
+\\\`
 ~$ touch /tmp/pwn
 hacker@commands~touching-files:~$ touch /tmp/college
 hacker@commands~touching-files:~$ /challenge/run
 Success! Here is your flag:
 pwn.college{wEtEc4JIqRl3mfBUIHiin83c__1.QXwMDO0wiMyAzNzEzW}
+\\\`
 
-##  Flag
+Flag
 pwn.college{wEtEc4JIqRl3mfBUIHiin83c__1.QXwMDO0wiMyAzNzEzW}
 
 
@@ -126,18 +131,18 @@ pwn.college{wEtEc4JIqRl3mfBUIHiin83c__1.QXwMDO0wiMyAzNzEzW}
 ## Challenge 8
 [** This challenge will create a delete_me file in your home directory! Delete it, then run /challenge/check, which will make sure you've deleted it and then give you the flag!**]
 
-## Process
+# Process
 
 use rm command to delete the delete_me file.
 
-hacker@commands~removing-files:~$ rm delete_me
-hacker@commands~removing-files:~$ ls
-Desktop  a  not-the-flag
-hacker@commands~removing-files:~$ /challenge/check
-Excellent removal. Here is your reward:
-pwn.college{EeG1-4SsquPS0gtHUYo7O8ortxJ.QX2kDM1wiMyAzNzEzW}
+ \\\` hacker@commands~removing-files:~$ rm delete_me
+       hacker@commands~removing-files:~$ ls
+         Desktop  a  not-the-flag
+       hacker@commands~removing-files:~$ /challenge/check
+       Excellent removal. Here is your reward:
+      pwn.college{EeG1-4SsquPS0gtHUYo7O8ortxJ.QX2kDM1wiMyAzNzEzW} \\\`
 
-##  Flag
+Flag
 pwn.college{EeG1-4SsquPS0gtHUYo7O8ortxJ.QX2kDM1wiMyAzNzEzW}
 
 
@@ -145,17 +150,19 @@ pwn.college{EeG1-4SsquPS0gtHUYo7O8ortxJ.QX2kDM1wiMyAzNzEzW}
 
 [** This challenge wants you to move the /flag file into /tmp/hack-the-planet (do it)! When you're done, run /challenge/check, which will check things out and give the flag to you.**]
 
-## Process
+# Process
 
 use mv command to move the file to the desired location.
 
- mv /flag /tmp/hack-the-planet
+\\\`
+mv /flag /tmp/hack-the-planet
 Correct! Performing 'mv /flag /tmp/hack-the-planet'.
 hacker@commands~moving-files:~$ /challenge/check
 Congrats! You successfully moved the flag to /tmp/hack-the-planet! Here it is:
 pwn.college{0Ck3tUJCuMHzA3xIsZvp6boySH8.0VOxEzNxwiMyAzNzEzW}
+\\\`
 
-##  Flag
+Flag
 pwn.college{0Ck3tUJCuMHzA3xIsZvp6boySH8.0VOxEzNxwiMyAzNzEzW}
 
 
@@ -165,18 +172,19 @@ pwn.college{0Ck3tUJCuMHzA3xIsZvp6boySH8.0VOxEzNxwiMyAzNzEzW}
 
 [** Now, it's your turn! Go find the flag, hidden as a dot-prepended file in /.**]
 
-## Process
+# Process
 
 use ls -a command to list the files starting with  a .
 then use cat on various files until the flag is found.
 
+\\\`
 ~$ ls -a
 .  ..  .ICEauthority  .bash_history  .cache  .config  .lesshst  .local  Desktop  a  not-the-flag
 hacker@commands~hidden-files:~$ cat a
 pwn.college{AOBKfipznCAJHc2erR-Z3OBdRaW.QXzMDO0wiMyAzNzEzW}
-  
+\\\`
 
-##  Flag
+Flag
 pwn.college{AOBKfipznCAJHc2erR-Z3OBdRaW.QXzMDO0wiMyAzNzEzW}
   
 
@@ -186,10 +194,11 @@ pwn.college{AOBKfipznCAJHc2erR-Z3OBdRaW.QXzMDO0wiMyAzNzEzW}
 ## Challenge 11
 [** In this challenge, I have hidden the flag! Here, you will use ls and cat to follow my breadcrumbs and find it.**]
 
-## Process
+# Process
 
 use combination of cat,ls and ls -a to find various clues and get the flag.
 
+\\\`
 hacker@commands~an-epic-filesystem-quest:~$ cd /
 hacker@commands~an-epic-filesystem-quest:/$ ls
 SECRET  boot       dev  flag  lib    lib64   media  nix  proc  run   srv  tmp  var
@@ -252,9 +261,9 @@ hacker@commands~an-epic-filesystem-quest:/opt/linux/linux-5.4/arch/sh/boards/mac
 CONGRATULATIONS! Your perserverence has paid off, and you have found the flag!
 It is: pwn.college{0xpOM0r6sc38ZE-aVrAbfw7zQNe.QX5IDO0wiMyAzNzEzW}
 
+\\\`
 
-
-##  Flag
+Flag
 pwn.college{0xpOM0r6sc38ZE-aVrAbfw7zQNe.QX5IDO0wiMyAzNzEzW}
 
 
@@ -262,29 +271,30 @@ pwn.college{0xpOM0r6sc38ZE-aVrAbfw7zQNe.QX5IDO0wiMyAzNzEzW}
 ## Challenge 12
 [**  create a /tmp/pwn directory and make a college file in it! Then run /challenge/run, which will check your solution and give you the flag!**]
 
-## Process
+#Process
 
 use mkdir command to create a new directory .
 then use cd tot raverse that directory.
 then use touch to create a new file college in it .
 then run /challenge/run to get the flag.
 
-
+\\\`
 hacker@commands~making-directories:~$ mkdir /tmp/pwn
 hacker@commands~making-directories:~$ cd /tmp/pwn
 hacker@commands~making-directories:/tmp/pwn$ touch college
 hacker@commands~making-directories:/tmp/pwn$ /challenge/run
 Success! Here is your flag:
 pwn.college{gLFdtGYBevjFUpPUmHjTG_XZHsG.QXxMDO0wiMyAzNzEzW}
+\\\`
 
-##  Flag
+Flag
 pwn.college{gLFdtGYBevjFUpPUmHjTG_XZHsG.QXxMDO0wiMyAzNzEzW}
 
-3
+
 ## Challenge 13
 [**  I've hidden the flag in a random directory on the filesystem. It's still called flag. Go find it!**]
 
-## Process
+#Process
 
 find / -name flag 
 
@@ -292,6 +302,7 @@ find /: Tells the command to start searching .
 -name flag: Specifies that you are looking for a file with the exact name flag.
 then use cat to read the files in the given paths and see which of them generates the flag.
 
+\\\`
 hacker@commands~finding-files:~$ find / -name flag
 find: ‘/root’: Permission denied
 find: ‘/etc/ssl/private’: Permission denied
@@ -338,12 +349,11 @@ find: ‘/proc/7/ns’: Permission denied
 /nix/store/1hyxipvwpdpcxw90l5pq1nvd6s6jdi5m-python3.12-pwntools-4.14.1/lib/python3.12/site-packages/pwnlib/flag
 /nix/store/5qz6hgb1qzpvjrsw20wyiylx5zw8b9bk-pwntools-4.14.0/lib/python3.13/site-packages/pwnlib/flag
 
-
 hacker@commands~finding-files:~$ cat /usr/share/doc/python3-markupsafe/flag
 pwn.college{cW8fPHPyORGyY6tEjuzCLpSjBji.QXyMDO0wiMyAzNzEzW}
+\\\`
 
-
-##  Flag
+Flag
 pwn.college{cW8fPHPyORGyY6tEjuzCLpSjBji.QXyMDO0wiMyAzNzEzW}
 
 
@@ -352,7 +362,7 @@ pwn.college{cW8fPHPyORGyY6tEjuzCLpSjBji.QXyMDO0wiMyAzNzEzW}
 [**  In this level the flag is, as always, in /flag, but /challenge/catflag will instead read out /home/hacker/not-the-flag. Use the symlink, and fool it into giving you the flag!**]
 
 
-## Process
+# Process
 
 rm /home/hacker/not-the-flag
 to delete the existing file that the program is trying to read.
@@ -363,14 +373,14 @@ creating a symbolic link (symlink) at the same location, but making it point to 
 /challenge/catflag
 to get the flag.
 
+\\\`
 hacker@commands~linking-files:~$ rm /home/hacker/not-the-flag
 hacker@commands~linking-files:~$ ln -s /flag /home/hacker/not-the-flag
 hacker@commands~linking-files:~$ /challenge/catflag
 About to read out the /home/hacker/not-the-flag file!
 pwn.college{kw9GVI7_zXum2dDBXa3if_YjG5F.QX5ETN1wiMyAzNzEzW}
+\\\`
 
-##  Flag
+Flag
 pwn.college{kw9GVI7_zXum2dDBXa3if_YjG5F.QX5ETN1wiMyAzNzEzW}
-
-
 
