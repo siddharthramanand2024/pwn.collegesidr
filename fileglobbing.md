@@ -1,11 +1,13 @@
 # Module 5: File Globbing
 
 ## Challenge 1
-** Matching with* **
+**Matching with***
 
 Process:
 since they have put condition on cd we have to use *(globbing) on the directory challenge and change directories.
+
 * matches pattern.
+  
 then we run challenge run to get the flag.
 
 ```
@@ -21,10 +23,12 @@ Flag:
 > pwn.college{kGRwIQzOxAT_1Be4U2mO11vdKZO.QXxIDO0wiMyAzNzEzW}
 
 ## Challenge 2
-** Matching with ? **
+**Matching with ?**
 
 Process:
+
 we have to use ? to change directory.
+
 ? works the same as * but matches only one character.
 
 ```
@@ -37,7 +41,7 @@ Flag:
 >pwn.college{4DbenQhpV3VYnsGrIMKsTaf-Mv_.QXyIDO0wiMyAzNzEzW}
 
 ## Challenge 3
-** Matching with [] **
+**Matching with []**
 
 Process:
 [] matches all the characters in its subset.
@@ -98,7 +102,7 @@ Flag:
 > pwn.college{s4m8QxbhGhaLGYqT2u7QMz9tcj1.QX1IDO0wiMyAzNzEzW}
 
 ## Challenge 7
-** Exclusionary Globbing**
+**Exclusionary Globbing**
 
 Process:
 use ! to negate the square brackets.
@@ -116,7 +120,7 @@ Flag:
 > pwn.college{A76Sq1-DAeQYvBFbwrD45qHP_cz.QX2IDO0wiMyAzNzEzW}
 
 ## Challenge 8
-** Tab completion**
+**Tab completion**
 
 Process:
 start entering the file path and press tab .. it will autocomplete and then enter to get the flag.
@@ -149,7 +153,7 @@ Flag;
 > pwn.college{QFJfYaXWfXld7uRoHZxhyj-tzyj.0lN0EzNxwiMyAzNzEzW}
 
 ## Challenge 10
-** Tab completion for commands**
+**Tab completion for commands**
 
 Process:
 tab can also be used to autocomplete commands.
