@@ -11,7 +11,7 @@ Success! Here is your flag:
 pwn.college{QGYhjjYOATNeho4DjXV-FU8XTlu.QX3YjM1wiMyAzNzEzW}
 ```
 Flag:
-pwn.college{QGYhjjYOATNeho4DjXV-FU8XTlu.QX3YjM1wiMyAzNzEzW}
+> pwn.college{QGYhjjYOATNeho4DjXV-FU8XTlu.QX3YjM1wiMyAzNzEzW}
 
 
 ## Challenge 2 
@@ -25,7 +25,7 @@ Success! Here is your flag:
 pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
 ```
  Flag:
-pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
+> pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
 
 ## Challenge 3
 **This challenge will inject the flag into your history.** 
@@ -34,4 +34,4 @@ Process:
 use the up arrow key to get the flag injected into the history.
 
 Flag:
-pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
+>pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
