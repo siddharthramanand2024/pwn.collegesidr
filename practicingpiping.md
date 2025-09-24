@@ -1,7 +1,7 @@
 # Module 6: Practicing Piping
 
 ## Challenge 1
-** Redirecting output **
+**Redirecting output**
 
 Process:
 using > to redirect output from PWN to College.
@@ -15,7 +15,7 @@ Flag:
 > pwn.college{AXH1ofFCGbPansf6k_VWVmxvGes.QX0YTN0wiMyAzNzEzW}
 
 ## Challenge 2
-** Redirecting output **
+**Redirecting output**
 
 
 Process:
@@ -45,7 +45,7 @@ Flag:
 > pwn.college{cD3bUQ00OXkFt3L_5H6qoKtU7K9.QX1YTN0wiMyAzNzEzW}
 
 ## Challenge 3
-**Appending output **
+**Appending output**
 
 Process:
 using >> to append output.
@@ -92,7 +92,7 @@ Flag:
 > pwn.college{8TOhjxajDJPs1qTJkJZ3SSkIZ0W.QX3ATO0wiMyAzNzEzW}
 
 ## Challenge 4
-**Redirecting errors **
+**Redirecting errors**
 
 Process:
 using 2> to redirect errors.
@@ -138,7 +138,6 @@ then we grep through the resulting file with the string "pwncollege"to find the 
 /challenge/run > /tmp/data.txt
 hacker@piping~grepping-stored-results:~$ grep "pwn.college" /tmp/data.txt
 pwn.college{I8jojJ-IeJVH24KbMgE3JAP9VvB.QX4EDO0wiMyAzNzEzW}
-```
 hacker@piping~grepping-stored-results:~$ /challenge/run > /tmp/data.txt
 [INFO] WELCOME! This challenge makes the following asks of you:
 [INFO] - the challenge will check that output is redirected to a specific file path : /tmp/data.txt
@@ -268,7 +267,7 @@ Flag:
 
 
 ## Challenge 11
-** process substitution**
+**process substitution**
 
 Process:
 Use process substitution with diff to compare the outputs of these two programs and find your flag.
@@ -288,11 +287,11 @@ Process:
 
 tee duplicates the output of /challenge/hack.
 
->( /challenge/the )  sends one copy to /challenge/the.
+( /challenge/the )  sends one copy to /challenge/the.
 
->( /challenge/planet )  sends another copy to /challenge/planet.
+( /challenge/planet )  sends another copy to /challenge/planet.
 
-> /dev/null → discards the original stdout to avoid printing it twice.
+ /dev/null discards the original stdout to avoid printing it twice.
 ```
 hacker@piping~writing-to-multiple-programs:~$ /challenge/hack | tee >( /challenge/the ) >( /challenge/planet ) > /dev/null
 Congratulations, you have duplicated data into the input of two programs! Here 
