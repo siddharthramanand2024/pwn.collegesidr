@@ -5,7 +5,7 @@
  [**In this challenge,invoke the hello command to get the flag! Keep in mind: commands in Linux are case sensitive: hello is different from HELLO.**]
 
 
-# Process
+Process:
 
 simply type $ hello command in the terminal to obtain the flag.
 
@@ -18,12 +18,11 @@ Flag
 pwn.college{QGYhjjYOATNeho4DjXV-FU8XTlu.QX3YjM1wiMyAzNzEzW}
 
 
-##  Challenge 2 
+#  Challenge 2 
 
  [**In this challenge,to get the flag,you must run the hello command (NOT the echo command) with a single argument of hackers.**]
 
-
-# Process
+ Process:
 
 simply type $ hello command in the terminal along with the argument hackers to obtain the flag.
 ```
@@ -34,12 +33,12 @@ pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
  Flag
 pwn.college{Q_A2su5eIb3PT95eI_pFI2yNNAL.QX4YjM1wiMyAzNzEzW}
 
-##  Challenge 3
+# Challenge 3
 
 [ **This challenge will inject the flag into your history.** ]
 
 
-# Process
+Process:
 use the up arrow key to get the flag injected into the history.
 
  Flag
