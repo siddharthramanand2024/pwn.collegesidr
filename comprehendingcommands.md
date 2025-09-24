@@ -1,4 +1,4 @@
-# Module 3: [Comprehending commands]
+# Module 3: Comprehending commands
 
 
 ##  Challenge 1 
